@@ -2,11 +2,11 @@
 
 ![Basic role syntax check](https://github.com/nemonik/common-role/workflows/Basic%20role%20syntax%20check/badge.svg)
 
-An Ansible role from which all my CentOS 7, Alpine 3.10 and Ubuntu bionic instances start with.
+An Ansible role from which all my CentOS 7, Alpine 3.10 and Ubuntu Bionic instances start with.
 
 ## Requirements
 
-A CentOS 7, Alpine 3.10 and Ubuntu bionic base image.
+A CentOS 7, Alpine 3.10 and Ubuntu Bionic base image.
 
 ## Role Variables
 
