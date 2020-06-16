@@ -1,5 +1,5 @@
 ---
-# defaults file for k3s-server
+# defaults file for common
 default_retries: 60
 default_delay: 10
 
