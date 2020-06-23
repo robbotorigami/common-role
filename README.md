@@ -27,6 +27,8 @@ An example can be found used in my Hands-on DevOps course's [box/ansible/box-pla
     - common
 ```
 
+The above Ansible playbook uses [This role](https://github.com/nemonik/common-role) to configure the instance past the base CentOS 7, Alpine 3.10 or Ubuntu Bionic image.
+
 For more information and to see this role put into action checkout my [Hands-on DevOps class](https://github.com/nemonik/hands-on-DevOps) project.
 
 ## License
