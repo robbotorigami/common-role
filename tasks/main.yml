@@ -13,22 +13,6 @@
     msg: "{{ ansible_distribution }} - {{ ansible_distribution_release }} is not Ubuntu-bionic or Alpine"
   when: ( ansible_distribution != 'Alpine' and not '3.10' in ansible_distribution_version) and ( ansible_distribution != 'Ubuntu' and ansible_distribution_release != 'bionic' ) and (ansible_distribution != 'CentOS' and ansible_distribution_major_version != '7')
   tags: common
-  
-- name: ensure pip package is installed
-  become: yes
-  yum:
-    name: python-pip
-    state: latest
-  tags:
-    - common
-
-- name: ensure the latest pip is installed
-  become: yes
-  pip:
-    name: pip
-    state: latest
-  tags:
-    - common
 
 - name: include centos_7.yml, when CentOS 7
   include: centos_7.yml
